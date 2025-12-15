@@ -52,6 +52,7 @@ class UserController extends GetxController {
         since = newUsers.last.id;
       }
     } finally {
+
       isLoading.value = false;
       isLoadMore.value = false;
     }
